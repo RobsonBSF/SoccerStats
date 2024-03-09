@@ -23,3 +23,6 @@ O SoccerStats é um projeto desenvolvido para fornecer uma plataforma onde os us
 5. Acesse o projeto no navegador através do endereço fornecido pelo Django.
 
 ## Contribuidores
+<a href="https://github.com/RobsonBSF/SoccerStats/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=RobsonBSF/SoccerStats" />
+</a>
