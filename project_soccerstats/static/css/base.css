@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: url("../img/soccer-field.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+ /* Header */
+.Header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 17px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 100;
+}
+
+.Logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.Navbar {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Navbar div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 25px;
+}
+
+.Navbar div a {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: .4s ease;
+}
+
+.Navbar div a:hover {
+    font-size: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 772px) {
+    .Header {
+        flex-direction: column;
+        padding: 17px 50px;
+    }
+
+    .Navbar {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .Navbar div {
+        margin: 5px 0px;
+    }
+}

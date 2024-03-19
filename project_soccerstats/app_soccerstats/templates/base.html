@@ -1,0 +1,25 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <title>SoccerStats</title>
+</head>
+<body>
+    <header class="Header">
+        <a href="/" class="Logo">SoccerStats</a>
+
+        <nav class="Navbar">
+            <div><a href="#">Jogadores</a></div>
+            <div><a href="#">Times</a></div>
+            <div><a href="#">Jogos</a></div>
+        </nav>
+    </header>
+
+    {% block content %}
+    {% endblock content %}
+</body>
+</html>
